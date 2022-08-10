@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * 开发者
- * nickName:大黄蜂
+ * nickName:
  * email:245655812@qq.com
  * github:https://github.com/bigbeef
  * velocity模板生成 cppba-codeTemplate
