@@ -67,13 +67,6 @@ public class ArticlesServiceImpl implements ArticlesService{
 			params.put("likeName","%"+likeName+"%");
 		}
 
-		//userId
-		Long userId = articles.getUserId();
-		if(!CommonUtil.isLongNullOrZero(userId)){
-			hql += " and articles.userId = :userId ";
-			params.put("userId",userId);
-		}
-
 		//articleClassId
 		Long articleClassId = articles.getArticleClassId();
 		if(!CommonUtil.isLongNullOrZero(articleClassId)){
